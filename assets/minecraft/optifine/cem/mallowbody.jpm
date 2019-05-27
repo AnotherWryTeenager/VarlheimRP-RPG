@@ -1,0 +1,11 @@
+{
+	"texture": "optifine/cem/mallowtext2.png",
+	"textureSize": [91, 77],
+	"boxes": [
+		{
+			"coordinates": [-6, -5, -10, 12, 10, 20],
+			"textureOffset": [15, 24]
+
+		}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"models": [
+		{
+			"part": "right_arm",
+			"model":"wing1.jpm",
+			"attach": true,
+			"invertAxis": "yz",
+			"translate": [4, 3, -4],
+			"rotate": [-30, 0, -30]
+		},
+		{
+			"part": "left_arm",
+			"model":"wing1.jpm",
+			"attach": true,
+			"invertAxis": "yz",
+			"translate": [-4, 3, -4],
+			"rotate": [30, 180, 30]
+		},
+		{
+			"part": "head",
+			"attach": false,
+			"model": "mallowhead.jpm",
+			"scale": 1
+		},
+		{
+			"part": "head",
+			"attach": true,
+			"model": "mallownose.jpm",
+			"scale": 1
+		},
+		{
+			"part": "left_ear",
+			"attach": false,
+			"model": "mallowear_r.jpm",
+			"scale": 1,
+			"rotate": [ 0, -10, 20]
+		},
+		{
+			"part": "right_ear",
+			"attach": false,
+			"invertaxis": "yz",
+			"model": "mallowear_l.jpm",
+			"scale": 1,
+			"rotate": [ 0, 10, -20]
+		},
+		{
+			"part": "body",
+			"attach": false,
+			"model": "mallowbody.jpm",
+			"scale": 1
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"credit": "Made by anotherWryTeenager using Blockbench",
+	"textures": {
+		"0": "block/oak_planks",
+		"particle": "block/oak_planks"
+	},
+	"elements": [
+		{
+			"name": "wall",
+			"from": [5, -16, 0],
+			"to": [11, -2, 5],
+			"faces": {
+				"north": {"uv": [11, 2, 5, 16], "texture": "#0", "cullface": "none"},
+				"east": {"uv": [0, 16, 6, 2], "texture": "#0", "cullface": "none"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "null"},
+				"west": {"uv": [16, 2, 10, 16], "texture": "#0", "cullface": "none"},
+				"up": {"uv": [5, 16, 11, 10], "rotation": 180, "texture": "#0", "cullface": "none"},
+				"down": {"uv": [5, 6, 11, 0], "rotation": 180, "texture": "#0", "cullface": "none"}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"texture": "optifine/cem/mallowhead.png",
+	"textureSize": [40, 38],
+	"boxes": [
+		{
+			"coordinates": [-1, -2, -12, 2, 1, 2],
+			"textureOffset": [0, 18]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "lit=true":  { "model": "other/totem1" },
+        "lit=false":  { "model": "other/totem1_off" }
+    }
+}
