@@ -1,25 +1,20 @@
 {
     "multipart": [
-        {   "when": { "OR": [
-                {"north": "none", "east": "none", "south": "none", "west": "none"},
-                {"north": "side|up", "east": "side|up" },
-                {"east": "side|up", "south": "side|up" },
-                {"south": "side|up", "west": "side|up"},
-                {"west": "side|up", "north": "side|up"}
-            ]},
-            "apply": { "model": "block/redstone_dust_dot" }
+        {   "when": {"north": "none", "east": "none", "south": "none", "west": "none"},
+            "apply": { "model": "wire/no_link" }
         },
+
+        {   "when": {"north": "side", "east": "none", "south": "none", "west": "none"},
+            "apply": { "model": "wire/link_n" }
+        },
+
         {   "when": { "OR": [
                 { "north": "side|up" },
-                { "north": "none", "east": "none", "south": "side|up", "west": "none" }
+                { "east": "side|up" },
+		{ "south": "side|up" },
+		{ "west": "side|up" }
             ]},
-            "apply": { "model": "block/redstone_dust_side0" }
-        },
-        {   "when": { "OR": [
-                { "south": "side|up" },
-                { "north": "side|up", "east": "none", "south": "none", "west": "none" }
-            ]},
-            "apply": { "model": "block/redstone_dust_side_alt0" }
+            "apply": { "model": "wire/point" }
         },
         {   "when": { "OR": [
                 { "east": "side|up" },
