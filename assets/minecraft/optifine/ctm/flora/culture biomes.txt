@@ -1,2 +1,8 @@
-Warrior	- Lukewarm_Ocean
-Mage 	- Snowy_Taiga
+Warrior		- lukewarm_ocean
+Mage 		- Snowy_Taiga
+Alchemist	- sunflower_plains
+Ranger		- giant_spruce_taiga_hills
+Rogue		- dark_forest_hills
+Dwarven		- modified_wooded_badlands_plateau
+Capitol		- tall_birch_forest
+Elven		- modified_jungle_edge
